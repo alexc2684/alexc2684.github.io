@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Alex Chan"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "UC Berkeley 2019"
+  location         : "Berkeley, CA"
+  email            : "alex.chan@berkeley.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,14 +89,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "www.github.com/alexc2684"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "www.linkedin.com/in/alex-chan"
   pinterest        :
-  soundcloud       :
+  soundcloud       : 
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
