@@ -4,12 +4,33 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},2000);
-	});
+
+
+;(function($, win) {
+  $.fn.inViewport = function(cb) {
+     return this.each(function(i,el){
+       function visPx(){
+         var H = $(this).height(),
+             r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
+         return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));
+       } visPx();
+       $(win).on("resize scroll", visPx);
+     });
+  };
+}(jQuery, window));
+
+
+
+$(".skillbar").inViewport(function(px){
+    if(px) {
+			jQuery(document).ready(function(){
+				jQuery('.skillbar').each(function(){
+					jQuery(this).find('.skillbar-bar').animate({
+						width:jQuery(this).attr('data-percent')
+					},2000);
+				});
+			});
+		} ;
 });
 
 (function($) {
