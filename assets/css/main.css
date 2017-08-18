@@ -25,6 +25,110 @@
 	body {
 		line-height: 1;
 	}
+	.list-group-item {
+	    position: relative;
+	    /*display: block;*/
+	    padding: 0px 15px; /* adjust here */
+	    margin-bottom: 15px;
+	    /*border: 1px solid #ddd;*/
+	    line-height: .001em /* set to text height */
+	}
+	.left img {
+    float: left
+	}
+
+	.right img {
+		float: right
+	}
+
+	.aligned {
+		height:275px;
+		list-style-type: none
+	}
+
+	.cellscope p {
+		position: relative;
+		margin-right: 250px;
+		line-height: 20px;
+		top: -275px;
+		left: 275px;
+	}
+
+	.cellscope h2 {
+		position: relative;
+		top: -260px;
+		left: 275px;
+	}
+
+	.cellscope h3 {
+		position: relative;
+		font-style: italic;
+		top: -275px;
+		left: 275px;
+	}
+
+	.bids p {
+		position: relative;
+		margin-right: 250px;
+		line-height: 20px;
+		top: -285px;
+		left: 275px;
+	}
+
+	.bids h2 {
+		position: relative;
+		top: -270px;
+		left: 275px;
+	}
+
+	.bids h3 {
+		position: relative;
+		font-style: italic;
+		top: -285px;
+		left: 275px;
+	}
+
+	.cv p {
+		position: relative;
+		margin-right: 250px;
+		line-height: 20px;
+		top: -275px;
+		left: 275px;
+	}
+
+	.cv h2 {
+		position: relative;
+		top: -260px;
+		left: 275px;
+	}
+
+	.cv h3 {
+		position: relative;
+		font-style: italic;
+		top: -275px;
+		left: 275px;
+	}
+
+	.denero p {
+		position: relative;
+		margin-right: 250px;
+		line-height: 20px;
+		top: -245px;
+		left: 275px;
+	}
+
+	.denero h2 {
+		position: relative;
+		top: -230px;
+		left: 275px;
+	}
+
+	.denero h3 {
+		position: relative;
+		font-style: italic;
+		top: -245px;
+		left: 275px;
+	}
 	/*body {
 	  font-family: 'Ubuntu', sans-serif;
 	  width:960px;
@@ -2855,7 +2959,7 @@
 	}
 
 /* Section/Article */
-
+/*TODO */
 	section.special, article.special {
 		text-align: center;
 	}

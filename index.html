@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" type="favicon" href="images/favicon.ico">
+
 	</head>
 	<body>
 
@@ -43,68 +45,99 @@
 										<header class="major">
 											<h2>About Me</h2>
 										</header>
-										<p>My name is Alex and I am studying computer science at UC Berkeley. What
-											 fascinates me most about computer science is how expansive it is and how
-											 dynamic the current problems in the field are. My current interests include
-											 machine learning, data science, and backend development. I'm passionate about
-											 learning and hope to explore all different areas of CS and how they apply
-											 to other fields of study. I am currently working as as a research intern
-											 at CellScope and as a data science module developer at Berkeley Institute for
-											 Data Science.
+										<p>I am a junior computer science major at UC Berkeley. My current interests
+											 are in machine learning and data science. I am currently working as as a
+											 research intern at CellScope and as a data science module developer at
+											 Berkeley Institute for Data Science.
 										 </br></br>
-										 	 In my spare time, I enjoy playing guitar and playing pickup basketball.
-											 I am passionate about music, coffee and art. Recently, I've been trying
-											 my hand at music production.
+										 	 In my spare time, I enjoy playing guitar and pickup basketball. I am passionate
+											 about music, coffee and art. Recently, I've been trying my hand at music production.
 											</p>
 										<!-- <ul class="actions">
 											<li><a href="generic.html" class="button">Learn More</a></li>
 										</ul> -->
 									</div>
-									<span class="image"><img src="images/personal.jpeg" alt="" ></span>
+									<span class="image"><img src="images/adventure.jpg" alt="" ></span>
 								</div>
 							</section>
 
 						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
+							<section id="first" class="main">
+								<header class="major special">
 									<h2>Experience</h2>
 								</header>
-								<ul class="features">
-									<li>
-										<span class="icon major style1">
-											<div class="circle">
-												<img src="images/ucb.png">
-											</div>
-										</span>
-										<h3>Berkeley Institute for Data Science</h3>
-										<p>Modules Developer</p>
-									</li>
-									<li>
+								<ul class="list-group">
+									<li class="list-group-item aligned left cellscope">
 										<span class="icon major style1">
 											<div class="circle">
 												<img src="images/cellscope.png">
 											</div>
 										</span>
-										<h3>CellScope</h3>
-										<p>Software Developer</p>
+										<h2>CellScope</h2>
+										<h3>Research Intern</h3>
+											<p>
+											  As a developer at CellScope, I took on roles as both a software and machine learning engineer.
+												I wrote a script that took uploaded image data, stitched them together to make videos, and created
+												training data from cropped regions of interest in the video for analysis in a convolutional neural network.
+												I developed a web application which supplemented this script for viewing these images and videos of blood
+												samples from Amazon S3. On the other side of my role, I trained and optimized a convolutional neural
+												network to count malaria eggs in cell images. The algorithm is deployed on an AWS EC2 instance for live classification.
+											</p>
 									</li>
-									<li>
-										<span class="icon major style1">
-											<div class="circle">
-												<img src="images/commvault.png">
-											</div>
-										</span>
-										<h3>Commvault</h3>
-										<p>Software Enigneering Intern</p>
-									</li>
-									<li>
+
+									<li class="list-group-item aligned left bids">
 										<span class="icon major style1">
 											<div class="circle">
 												<img src="images/ucb.png">
 											</div>
 										</span>
-										<h3>UC Berkeley</h3>
-										<p>Lab Assistant for CS61A</p>
+										<h2>Berkeley Institute for Data Science</h2>
+										<h3>Modules Developer</h3>
+										<p>
+											At BIDS, we are developing iPython Notebooks focused on teaching data science for various courses.
+											The first module I developed was for L&S 88-5 (Rediscovering Text as Data). The notebook introduced
+											how to use the HaitiTrust API for NLP tasks. Using metadata from several volumes, I walked through how
+											to train models using Scikit Learn to classify book genre and author gender. The module I am currently
+											working on is for ECON 101B (Macoeconomics), taught by J Bradford Delong. This work is focused on
+											writing content for the course, mainly for visualizing and modeling data with regression.
+										</p>
+									</li>
+
+									<li class="list-group-item aligned left cv">
+										<span class="icon major style1">
+											<div class="circle">
+												<img src="images/commvault.png">
+											</div>
+										</span>
+										<h2>Commvault</h2>
+										<h3>Software Enigneering Intern</h3>
+										<p>
+											During my time at Commvault, I developed the Commvault Video Search engine,
+											a services that plays and searches videos by their transcribed audio content.
+											I accomplished this by using the Microsoft Azure Media Indexer to generate the
+											video transcriptions, and then fed it to a database in the Commvault Analytics
+											Engine for querying. I also wrote a web application that complemented this service
+											for uploading and streaming these videos. In this app, a user can search for a
+											particular query and the video will play from the point where the search term is
+											mentioned.
+										</p>
+									</li>
+
+									<li class="list-group-item aligned left denero">
+										<span class="icon major style1">
+											<div class="circle">
+												<img src="images/ucb.png">
+											</div>
+										</span>
+										<h2>UC Berkeley</h2>
+										<h3>Lab Assistant for CS61A</h3>
+										<p>
+											I tutored students during labs and office hours for CS61A (Structure & Interpretation
+											of Computer Programs), the introduction computer science class at Berkeley. Topics
+											include: inheritance, recursion, trees, linked lists, and streams. Taught in Python,
+											SQL, and Scheme.
+
+										</p>
 									</li>
 								<!-- </ul>
 								<footer class="major">
@@ -120,43 +153,43 @@
 									<h2>Skills</h2>
 								</header>
 
-							<div class="skillbar clearfix " data-percent="90%">
+							<div class="skillbar clearfix " data-percent="95%">
 								<div class="skillbar-title" style="background: #d35400;"><span>Python</span></div>
 								<div class="skillbar-bar" style="background: #e67e22;"></div>
 								<div class="skill-bar-percent"></div>
 							</div> <!-- End Skill Bar -->
 
-							<div class="skillbar clearfix " data-percent="80%">
+							<div class="skillbar clearfix " data-percent="90%">
 								<div class="skillbar-title" style="background: #2980b9;"><span>Java</span></div>
 								<div class="skillbar-bar" style="background: #3498db;"></div>
 								<!-- <div class="skill-bar-percent"></div> -->
 							</div> <!-- End Skill Bar -->
 
-							<div class="skillbar clearfix " data-percent="70%">
+							<div class="skillbar clearfix " data-percent="85%">
 								<div class="skillbar-title" style="background: #2c3e50;"><span>Javascript</span></div>
 								<div class="skillbar-bar" style="background: #2c3e99;"></div>
 								<!-- <div class="skill-bar-percent"></div> -->
 							</div> <!-- End Skill Bar -->
 
-							<div class="skillbar clearfix " data-percent="60%">
+							<div class="skillbar clearfix " data-percent="75%">
 								<div class="skillbar-title" style="background: #46465e;"><span>C</span></div>
 								<div class="skillbar-bar" style="background: #5a68a5;"></div>
 								<!-- <div class="skill-bar-percent"></div> -->
 							</div> <!-- End Skill Bar -->
 
-							<div class="skillbar clearfix " data-percent="60%">
+							<div class="skillbar clearfix " data-percent="75%">
 								<div class="skillbar-title" style="background: #333333;"><span>Swift</span></div>
 								<div class="skillbar-bar" style="background: #525252;"></div>
 								<!-- <div class="skill-bar-percent"></div> -->
 							</div> <!-- End Skill Bar -->
 
-							<div class="skillbar clearfix " data-percent="50%">
+							<div class="skillbar clearfix " data-percent="65%">
 								<div class="skillbar-title" style="background: #27ae60;"><span>HTML</span></div>
 								<div class="skillbar-bar" style="background: #2ecc71;"></div>
 								<div class="skill-bar-percent"></div>
 							</div> <!-- End Skill Bar -->
 
-							<div class="skillbar clearfix " data-percent="50%">
+							<div class="skillbar clearfix " data-percent="65%">
 								<div class="skillbar-title" style="background: #124e8c;"><span>CSS</span></div>
 								<div class="skillbar-bar" style="background: #4288d0;"></div>
 								<div class="skill-bar-percent"></div>
@@ -231,7 +264,7 @@
 								<li><a href="generic.html" class="button">Learn More</a></li>
 							</ul> -->
 						</section>
-						<p class="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright"> Design by Alex Chan and <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
