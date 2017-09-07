@@ -48,22 +48,22 @@
 
 	.cellscope p {
 		position: relative;
-		margin-right: 250px;
+		margin-right: 270px;
 		line-height: 20px;
-		top: -275px;
+		top: -295px;
 		left: 275px;
 	}
 
 	.cellscope h2 {
 		position: relative;
-		top: -260px;
+		top: -290px;
 		left: 275px;
 	}
 
 	.cellscope h3 {
 		position: relative;
 		font-style: italic;
-		top: -275px;
+		top: -305px;
 		left: 275px;
 	}
 
@@ -71,20 +71,20 @@
 		position: relative;
 		margin-right: 250px;
 		line-height: 20px;
-		top: -285px;
+		top: -295px;
 		left: 275px;
 	}
 
 	.bids h2 {
 		position: relative;
-		top: -270px;
+		top: -280px;
 		left: 275px;
 	}
 
 	.bids h3 {
 		position: relative;
 		font-style: italic;
-		top: -285px;
+		top: -295px;
 		left: 275px;
 	}
 
@@ -92,20 +92,20 @@
 		position: relative;
 		margin-right: 250px;
 		line-height: 20px;
-		top: -275px;
+		top: -295px;
 		left: 275px;
 	}
 
 	.cv h2 {
 		position: relative;
-		top: -260px;
+		top: -280px;
 		left: 275px;
 	}
 
 	.cv h3 {
 		position: relative;
 		font-style: italic;
-		top: -275px;
+		top: -295px;
 		left: 275px;
 	}
 
@@ -113,20 +113,20 @@
 		position: relative;
 		margin-right: 250px;
 		line-height: 20px;
-		top: -245px;
+		top: -255px;
 		left: 275px;
 	}
 
 	.denero h2 {
 		position: relative;
-		top: -230px;
+		top: -240px;
 		left: 275px;
 	}
 
 	.denero h3 {
 		position: relative;
 		font-style: italic;
-		top: -245px;
+		top: -255px;
 		left: 275px;
 	}
 	/*body {
