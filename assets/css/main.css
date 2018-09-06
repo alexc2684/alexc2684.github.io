@@ -45,7 +45,7 @@
 		height:275px;
 		list-style-type: none
 	}
-	.hubspot p {
+	.hubspot li {
 		position: relative;
 		margin-right: 270px;
 		line-height: 20px;
