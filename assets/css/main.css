@@ -45,23 +45,23 @@
 		height:275px;
 		list-style-type: none
 	}
-	.hubspot li {
+	.hubspot p {
 		position: relative;
 		margin-right: 270px;
-		line-height: 20px;
+		line-height: 30px;
 		top: -305px;
 		left: 275px;
 	}
 
 	.hubspot h2 {
 		position: relative;
-		top: -290px;
+		top: -280px;
 		left: 275px;
 	}
 
 	.hubspot h3 {
 		position: relative;
-		font-style: italic;
+		/* font-style: italic; */
 		top: -305px;
 		left: 275px;
 	}
@@ -69,8 +69,8 @@
 	.cellscope p {
 		position: relative;
 		margin-right: 270px;
-		line-height: 20px;
-		top: -280px;
+		line-height: 30px;
+		top: -290px;
 		left: 275px;
 	}
 
@@ -82,16 +82,38 @@
 
 	.cellscope h3 {
 		position: relative;
-		font-style: italic;
-		top: -280px;
+		/* font-style: italic; */
+		top: -290px;
 		left: 275px;
 	}
+
+	.uav p {
+		position: relative;
+		margin-right: 270px;
+		line-height: 30px;
+		top: -290px;
+		left: 275px;
+	}
+
+	.uav h2 {
+		position: relative;
+		top: -265px;
+		left: 275px;
+	}
+
+	.uav h3 {
+		position: relative;
+		/* font-style: italic; */
+		top: -290px;
+		left: 275px;
+	}
+
 
 	.bids p {
 		position: relative;
 		margin-right: 250px;
-		line-height: 20px;
-		top: -260px;
+		line-height: 30px;
+		top: -280px;
 		left: 275px;
 	}
 
@@ -103,28 +125,28 @@
 
 	.bids h3 {
 		position: relative;
-		font-style: italic;
-		top: -260px;
+		/* font-style: italic; */
+		top: -270px;
 		left: 275px;
 	}
 
 	.cv p {
 		position: relative;
 		margin-right: 250px;
-		line-height: 20px;
+		line-height: 30px;
 		top: -295px;
 		left: 275px;
 	}
 
 	.cv h2 {
 		position: relative;
-		top: -280px;
+		top: -270px;
 		left: 275px;
 	}
 
 	.cv h3 {
 		position: relative;
-		font-style: italic;
+		/* font-style: italic; */
 		top: -295px;
 		left: 275px;
 	}
@@ -132,7 +154,7 @@
 	.denero p {
 		position: relative;
 		margin-right: 250px;
-		line-height: 20px;
+		line-height: 30px;
 		top: -255px;
 		left: 275px;
 	}
@@ -147,6 +169,47 @@
 		position: relative;
 		font-style: italic;
 		top: -255px;
+		left: 275px;
+	}
+
+	.r p {
+		position: relative;
+		margin-right: 270px;
+		line-height: 30px;
+		top: -305px;
+		left: 275px;
+	}
+
+	.r h2 {
+		position: relative;
+		top: -280px;
+		left: 275px;
+	}
+
+	.r h3 {
+		position: relative;
+		/* font-style: italic; */
+		top: -305px;
+		left: 275px;
+	}
+
+	.l p {
+		position: relative;
+		margin-right: 270px;
+		line-height: 30px;
+		top: -290px;
+		left: 275px;
+	}
+
+	.l h2 {
+		position: relative;
+		top: -265px;
+		left: 275px;
+	}
+
+	.l h3 {
+		position: relative;
+		top: -290px;
 		left: 275px;
 	}
 	/*body {
